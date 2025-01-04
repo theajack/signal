@@ -7,8 +7,8 @@ window.jsboxCode = {
     lib: 'https://cdn.jsdelivr.net/npm/tc-signal',
     lang: 'javascript',
     code: `var {signal, computed, effect} = window.TcSignal;
-const count = signal(1);
-const doubleCount = computed(() => count.get() * 2);
+var count = signal(1);
+var doubleCount = computed(() => count.get() * 2);
 
 effect(() => {
     console.log(\`Count is: \${count.get()}\`);

@@ -7,6 +7,9 @@
 
 ### [Demo](https://shiyix.cn/jsbox/?github=theajack.signal)
 
+- Only 75B with gzip, 3kb with min.js
+- Support `computed`, `signal`, `effect`, `watch`
+
 ```
 npm i tc-signal
 ```
